@@ -1,0 +1,44 @@
+[
+	{
+		"college_image": "https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg",
+		"college_name": "ABC University",
+		"college_rating": 4.5,
+		"admission_date": "2023-09-01",
+		"research_publications": 1500
+	},
+	{
+		"college_image": "https://i.ibb.co/MhMstGK/olu-famule-Dv2-PNb-MWts-E-unsplash.jpg",
+		"college_name": "XYZ College",
+		"college_rating": 4.2,
+		"admission_date": "2023-08-15",
+		"research_publications": 1200
+	},
+	{
+		"college_image": "https://i.ibb.co/R3FBXDN/parker-gibbons-kfw-PJie-ZVw-I-unsplash.jpg",
+		"college_name": "PQR Institute",
+		"college_rating": 4.7,
+		"admission_date": "2023-09-15",
+		"research_publications": 1800
+	},
+	{
+		"college_image": "https://i.ibb.co/pRxfQrs/porter-raab-gnj9vj-FRY-unsplash.jpg",
+		"college_name": "LMN University",
+		"college_rating": 4.8,
+		"admission_date": "2023-08-30",
+		"research_publications": 2200
+	},
+	{
+		"college_image": "https://i.ibb.co/f4LfdVt/porter-raab-Ucr4-Yp-t364-unsplash.jpg",
+		"college_name": "EFG College",
+		"college_rating": 4.4,
+		"admission_date": "2023-09-10",
+		"research_publications": 900
+	},
+	{
+		"college_image": "https://i.ibb.co/ZfWV3SW/ronni-kurtz-e17b7-HW89vc-unsplash.jpg",
+		"college_name": "STU Academy",
+		"college_rating": 4.6,
+		"admission_date": "2023-08-25",
+		"research_publications": 1300
+	}
+]
