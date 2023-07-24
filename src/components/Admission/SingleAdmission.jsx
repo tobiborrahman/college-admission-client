@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 
 const SingleAdmission = ({ college }) => {
-	console.log(college);
 	const { _id, college_name } = college;
 
 	const handleAdmission = (id) => {
