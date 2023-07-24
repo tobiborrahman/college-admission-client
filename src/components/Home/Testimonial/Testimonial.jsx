@@ -25,7 +25,7 @@ const Testimonial = () => {
 		progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
 	};
 	return (
-		<div className="h-[400px] mb-40">
+		<div className="h-[400px] pb-40">
 			<h1 className="text-5xl md:text-8xl font-bold text-center">
 				Testimonial
 			</h1>
@@ -47,11 +47,6 @@ const Testimonial = () => {
 			>
 				<SwiperSlide>
 					<div>
-						{/* <img
-							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
-							src="https://i.ibb.co/S7194hZ/man333.jpg"
-							alt=""
-						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -69,11 +64,6 @@ const Testimonial = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						{/* <img
-							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
-							src="https://i.ibb.co/S7194hZ/man333.jpg"
-							alt=""
-						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -91,11 +81,6 @@ const Testimonial = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						{/* <img
-							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
-							src="https://i.ibb.co/S7194hZ/man333.jpg"
-							alt=""
-						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -113,11 +98,6 @@ const Testimonial = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						{/* <img
-							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
-							src="https://i.ibb.co/S7194hZ/man333.jpg"
-							alt=""
-						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit

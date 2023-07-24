@@ -17,7 +17,7 @@ const SingleCollege = ({ college }) => {
 
 	return (
 		<div>
-			<div className="card card-compact w-96 bg-base-100 shadow-xl">
+			<div className="card card-compact w-96 bg-gray-50 shadow-xl">
 				<figure>
 					<img
 						className="w-full h-[250px] object-cover"
@@ -26,7 +26,7 @@ const SingleCollege = ({ college }) => {
 					/>
 				</figure>
 
-				<div className="card-body">
+				<div className="card-body text-black">
 					<h2 className="card-title text-2xl">{college_name}</h2>
 					<p className="text-xl">Rating: {college_rating}</p>
 					<p className="text-xl">Admission Date: {admission_date}</p>

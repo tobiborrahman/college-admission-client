@@ -8,14 +8,14 @@ const Card = () => {
 				Colleges
 			</h1>
 			<div className="grid grid-cols-1 md:grid-cols-3">
-				<div className="card card-compact w-96 bg-base-100 shadow-xl mb-4 md:mb-0">
+				<div className="card card-compact w-96 bg-gray-50 shadow-xl mb-4 md:mb-0">
 					<figure>
 						<img
 							src="https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg"
 							alt="Shoes"
 						/>
 					</figure>
-					<div className="card-body">
+					<div className="card-body text-black">
 						<h2 className="card-title">Imperial College</h2>
 						<p>Admission Date: 15 Jun - 25 Jun</p>
 						<p>See Events</p>
@@ -28,14 +28,14 @@ const Card = () => {
 						</div>
 					</div>
 				</div>
-				<div className="card card-compact w-96 bg-base-100 shadow-xl mb-4 md:mb-0">
+				<div className="card card-compact w-96 bg-gray-50 shadow-xl mb-4 md:mb-0">
 					<figure>
 						<img
 							src="https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg"
 							alt="Shoes"
 						/>
 					</figure>
-					<div className="card-body">
+					<div className="card-body text-black">
 						<h2 className="card-title">Imperial College</h2>
 						<p>Admission Date: 15 Jun - 25 Jun</p>
 						<p>See Events</p>
@@ -48,14 +48,14 @@ const Card = () => {
 						</div>
 					</div>
 				</div>
-				<div className="card card-compact w-96 bg-base-100 shadow-xl mb-4 md:mb-0">
+				<div className="card card-compact w-96 bg-gray-50 shadow-xl mb-4 md:mb-0">
 					<figure>
 						<img
 							src="https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg"
 							alt="Shoes"
 						/>
 					</figure>
-					<div className="card-body">
+					<div className="card-body text-black">
 						<h2 className="card-title">Imperial College</h2>
 						<p>Admission Date: 15 Jun - 25 Jun</p>
 						<p>See Events</p>
