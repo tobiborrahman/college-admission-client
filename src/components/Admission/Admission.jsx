@@ -5,13 +5,13 @@ const Admission = () => {
 	const [admitCollege, setAdmitCollege] = useState([]);
 
 	useEffect(() => {
-		fetch('http://localhost:5000/admittedColleges')
+		fetch('https://college-admission-server-nu.vercel.app/admittedColleges')
 			.then((res) => res.json())
 			.then((data) => {
 				setAdmitCollege(data);
 			});
 	}, []);
-    
+
 	return (
 		<div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-20">
 			{admitCollege.map((college) => (

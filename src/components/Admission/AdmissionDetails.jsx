@@ -8,19 +8,21 @@ const AdmissionDetails = () => {
 	const {
 		register,
 		handleSubmit,
-		watch,
 		reset,
 		formState: { errors },
 	} = useForm();
 
 	const onSubmit = (data) => {
-		fetch('http://localhost:5000/candidateColleges', {
-			method: 'POST',
-			headers: {
-				'content-type': 'application/json',
-			},
-			body: JSON.stringify(data),
-		});
+		fetch(
+			'https://college-admission-server-nu.vercel.app/candidateColleges',
+			{
+				method: 'POST',
+				headers: {
+					'content-type': 'application/json',
+				},
+				body: JSON.stringify(data),
+			}
+		);
 		reset();
 	};
 

@@ -47,14 +47,16 @@ const router = createBrowserRouter([
 				path: '/colleges/:id',
 				element: <CollegeDetails></CollegeDetails>,
 				loader: ({ params }) =>
-					fetch(`http://localhost:5000/colleges/${params.id}`),
+					fetch(
+						`https://college-admission-server-nu.vercel.app/colleges/${params.id}`
+					),
 			},
 			{
 				path: '/admittedColleges/:id',
 				element: <AdmissionDetails></AdmissionDetails>,
 				loader: ({ params }) =>
 					fetch(
-						`http://localhost:5000/admittedColleges/${params.id}`
+						`https://college-admission-server-nu.vercel.app/admittedColleges/${params.id}`
 					),
 			},
 		],

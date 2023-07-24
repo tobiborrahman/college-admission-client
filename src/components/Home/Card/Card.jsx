@@ -21,7 +21,7 @@ const Card = () => {
 						<p>Sports</p>
 						<div className="card-actions justify-center">
 							<button className="btn btn-primary w-full">
-								<Link to="/card-details">Details</Link>
+								<Link to="/colleges">Details</Link>
 							</button>
 						</div>
 					</div>
@@ -41,7 +41,7 @@ const Card = () => {
 						<p>Sports</p>
 						<div className="card-actions justify-center">
 							<button className="btn btn-primary w-full">
-								<Link to="/card-details">Details</Link>
+								<Link to="/colleges">Details</Link>
 							</button>
 						</div>
 					</div>
@@ -61,7 +61,7 @@ const Card = () => {
 						<p>Sports</p>
 						<div className="card-actions justify-center">
 							<button className="btn btn-primary w-full">
-								<Link to="/card-details">Details</Link>
+								<Link to="/colleges">Details</Link>
 							</button>
 						</div>
 					</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGoogle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const ResearchPaper = () => {
@@ -7,7 +8,9 @@ const ResearchPaper = () => {
 			<h1 className="text-8xl font-bold text-center mb-14">Research</h1>
 			<div className="flex justify-between">
 				<div className="w-[300px] text-2xl font-bold shadow-lg rounded-md p-6">
-					<Link>Machine Learning - </Link>
+					<div className="text-center">
+						<Link>Machine Learning - </Link>
+					</div>
 				</div>
 				<div className="w-[300px] text-2xl font-bold shadow-lg rounded-md p-6">
 					<Link>Artificial Intelligence - </Link>

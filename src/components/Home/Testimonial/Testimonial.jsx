@@ -45,11 +45,11 @@ const Testimonial = () => {
 			>
 				<SwiperSlide>
 					<div>
-						<img
+						{/* <img
 							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
 							src="https://i.ibb.co/S7194hZ/man333.jpg"
 							alt=""
-						/>
+						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -67,11 +67,11 @@ const Testimonial = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						<img
+						{/* <img
 							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
 							src="https://i.ibb.co/S7194hZ/man333.jpg"
 							alt=""
-						/>
+						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -82,18 +82,18 @@ const Testimonial = () => {
 						<Rating
 							className="mx-auto"
 							style={{ maxWidth: 180 }}
-							value={3}
+							value={4.5}
 							readOnly
 						/>
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						<img
+						{/* <img
 							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
 							src="https://i.ibb.co/S7194hZ/man333.jpg"
 							alt=""
-						/>
+						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -104,18 +104,18 @@ const Testimonial = () => {
 						<Rating
 							className="mx-auto"
 							style={{ maxWidth: 180 }}
-							value={3}
+							value={4.5}
 							readOnly
 						/>
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
 					<div>
-						<img
+						{/* <img
 							className="w-[100px] h-[100px] rounded-full mx-auto mb-3"
 							src="https://i.ibb.co/S7194hZ/man333.jpg"
 							alt=""
-						/>
+						/> */}
 						<p className="px-60 text-center mb-3">
 							Lorem ipsum dolor sit amet consectetur adipisicing
 							elit. Accusamus dolore exercitationem reprehenderit
@@ -126,7 +126,7 @@ const Testimonial = () => {
 						<Rating
 							className="mx-auto"
 							style={{ maxWidth: 180 }}
-							value={3}
+							value={4.5}
 							readOnly
 						/>
 					</div>
@@ -144,4 +144,3 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
-
