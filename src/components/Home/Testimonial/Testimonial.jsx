@@ -26,7 +26,9 @@ const Testimonial = () => {
 	};
 	return (
 		<div className="h-[400px] mb-40">
-			<h1 className="text-8xl font-bold text-center">Testimonial</h1>
+			<h1 className="text-5xl md:text-8xl font-bold text-center">
+				Testimonial
+			</h1>
 
 			<Swiper
 				spaceBetween={30}

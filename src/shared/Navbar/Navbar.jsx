@@ -51,7 +51,10 @@ const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-					<a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+					<h3 className="text-blue-900 uppercase text-xl font-bold">
+						Make Your <br />{' '}
+						<span className="text-blue-500">Career</span>
+					</h3>
 				</div>
 				<div className="navbar-center hidden lg:flex">
 					<ul className="menu menu-horizontal px-1">
@@ -78,7 +81,7 @@ const Navbar = () => {
 						<Link to="/login">
 							<button
 								onClick={handleLogOut}
-								className="py-1 px-3 text-white text-xl duration-700 rounded-md hover:text-[#0C4B65] hover:bg-[#EFCF4F] border border-[#EFCF4F]"
+								className="py-1 px-3 text-xl duration-700 rounded-md hover:text-[#0C4B65] hover:bg-[#EFCF4F] border border-[#EFCF4F]"
 							>
 								Log Out
 							</button>

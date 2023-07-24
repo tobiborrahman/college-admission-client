@@ -52,7 +52,7 @@ body {
 	justify-content: center;
 	font-weight: bold;
 	/* color: var(--swiper-theme-color); */
-	color: rgb(23, 23, 52);
+	color: rgb(241, 241, 245);
 }
 
 .autoplay-progress svg {

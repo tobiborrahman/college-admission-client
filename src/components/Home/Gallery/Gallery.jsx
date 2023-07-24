@@ -3,11 +3,13 @@ import React from 'react';
 const Gallery = () => {
 	return (
 		<div className="py-20">
-			<h1 className="text-8xl font-bold text-center mb-14">Gallery</h1>
+			<h1 className="text-5xl md:text-8xl font-bold text-center mb-14">
+				Gallery
+			</h1>
 			<div className="md:flex gap-3 mx-[62px]">
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg"
 						alt=""
 					/>
@@ -21,7 +23,7 @@ const Gallery = () => {
 				</div>
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/MhMstGK/olu-famule-Dv2-PNb-MWts-E-unsplash.jpg"
 						alt=""
 					/>
@@ -35,7 +37,7 @@ const Gallery = () => {
 				</div>
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/R3FBXDN/parker-gibbons-kfw-PJie-ZVw-I-unsplash.jpg"
 						alt=""
 					/>
@@ -51,7 +53,7 @@ const Gallery = () => {
 			<div className="md:flex gap-3 mx-[62px] mt-3">
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/pRxfQrs/porter-raab-gnj9vj-FRY-unsplash.jpg"
 						alt=""
 					/>
@@ -65,7 +67,7 @@ const Gallery = () => {
 				</div>
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/f4LfdVt/porter-raab-Ucr4-Yp-t364-unsplash.jpg"
 						alt=""
 					/>
@@ -79,7 +81,7 @@ const Gallery = () => {
 				</div>
 				<div className="group relative">
 					<img
-						className="w-[370px] h-[250px] bg-red-600 backdrop-brightness-25"
+						className="md:w-[370px] h-[250px] bg-red-600 mb-3 md:mb-0 backdrop-brightness-25"
 						src="https://i.ibb.co/ZfWV3SW/ronni-kurtz-e17b7-HW89vc-unsplash.jpg"
 						alt=""
 					/>

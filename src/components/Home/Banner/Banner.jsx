@@ -50,11 +50,38 @@ const Banner = () => {
 					<div>
 						<img
 							className="w-[100%] h-[100vh]"
+							src="https://i.ibb.co/ZfWV3SW/ronni-kurtz-e17b7-HW89vc-unsplash.jpg"
+							alt=""
+						/>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div>
+						<img
+							className="w-[100%] h-[100vh]"
 							src="https://i.ibb.co/R3FBXDN/parker-gibbons-kfw-PJie-ZVw-I-unsplash.jpg"
 							alt=""
 						/>
 					</div>
 				</SwiperSlide>
+				{/* <SwiperSlide>
+					<div>
+						<img
+							className="w-[100%] h-[100vh]"
+							src="https://i.ibb.co/pRxfQrs/porter-raab-gnj9vj-FRY-unsplash.jpg"
+							alt=""
+						/>
+					</div>
+				</SwiperSlide>
+				<SwiperSlide>
+					<div>
+						<img
+							className="w-[100%] h-[100vh]"
+							src="https://i.ibb.co/f4LfdVt/porter-raab-Ucr4-Yp-t364-unsplash.jpg"
+							alt=""
+						/>
+					</div>
+				</SwiperSlide> */}
 
 				<div className="autoplay-progress" slot="container-end">
 					<svg viewBox="0 0 48 48" ref={progressCircle}>
