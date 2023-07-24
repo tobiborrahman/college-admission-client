@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"college_name": "University of Innovation and Technology"
+	},
+	{
+		"id": 2,
+		"college_name": "Global College of Engineering"
+	},
+	{
+		"id": 3,
+		"college_name": "Ivy League University"
+	},
+	{
+		"id": 4,
+		"college_name": "Metropolitan State University"
+	},
+	{
+		"id": 5,
+		"college_name": "Renaissance Arts Academy"
+	},
+	{
+		"id": 6,
+		"college_name": "Quantum Science Institute"
+	},
+	{
+		"id": 7,
+		"college_name": "Horizon Business School"
+	},
+	{
+		"id": 8,
+		"college_name": "Pacific Coast University"
+	},
+	{
+		"id": 9,
+		"college_name": "Liberty College of Law"
+	},
+	{
+		"id": 10,
+		"college_name": "Evergreen Institute of Environmental Studies"
+	},
+	{
+		"id": 11,
+		"college_name": "Stellar Medical College"
+	},
+	{
+		"id": 12,
+		"college_name": "Harmony Music Conservatory"
+	}
+]

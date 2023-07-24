@@ -1,44 +1,68 @@
 [
 	{
 		"college_image": "https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg",
-		"college_name": "ABC University",
+		"college_name": "University of Innovation and Technology",
 		"college_rating": 4.5,
 		"admission_date": "2023-09-01",
-		"research_publications": 1500
+		"research_publications": 256,
+		"details": {
+			"events": "Annual Tech Fest, Cultural Night, Career Fair",
+			"sports_facilities": "Basketball court, Swimming pool, Gym"
+		}
 	},
 	{
 		"college_image": "https://i.ibb.co/MhMstGK/olu-famule-Dv2-PNb-MWts-E-unsplash.jpg",
-		"college_name": "XYZ College",
+		"college_name": "Global College of Engineering",
 		"college_rating": 4.2,
 		"admission_date": "2023-08-15",
-		"research_publications": 1200
+		"research_publications": 189,
+		"details": {
+			"events": "Engineering Expo, Sports Meet, Cultural Week",
+			"sports_facilities": "Football ground, Tennis court, Fitness center"
+		}
 	},
 	{
 		"college_image": "https://i.ibb.co/R3FBXDN/parker-gibbons-kfw-PJie-ZVw-I-unsplash.jpg",
-		"college_name": "PQR Institute",
-		"college_rating": 4.7,
-		"admission_date": "2023-09-15",
-		"research_publications": 1800
+		"college_name": "Ivy League University",
+		"college_rating": 4.9,
+		"admission_date": "2023-09-05",
+		"research_publications": 398,
+		"details": {
+			"events": "Commencement Ceremony, Alumni Reunion",
+			"sports_facilities": "Cricket ground, Indoor sports hall, Yoga studio"
+		}
 	},
 	{
 		"college_image": "https://i.ibb.co/pRxfQrs/porter-raab-gnj9vj-FRY-unsplash.jpg",
-		"college_name": "LMN University",
-		"college_rating": 4.8,
+		"college_name": "Metropolitan State University",
+		"college_rating": 4.0,
 		"admission_date": "2023-08-30",
-		"research_publications": 2200
+		"research_publications": 102,
+		"details": {
+			"events": "Arts Festival, Job Fair, Science Symposium",
+			"sports_facilities": "Volleyball court, Running track, Fitness center"
+		}
 	},
 	{
 		"college_image": "https://i.ibb.co/f4LfdVt/porter-raab-Ucr4-Yp-t364-unsplash.jpg",
-		"college_name": "EFG College",
-		"college_rating": 4.4,
+		"college_name": "Renaissance Arts Academy",
+		"college_rating": 4.7,
 		"admission_date": "2023-09-10",
-		"research_publications": 900
+		"research_publications": 76,
+		"details": {
+			"events": "Art Exhibition, Drama Festival, Music Concerts",
+			"sports_facilities": "Dance studio, Music studio, Art studio"
+		}
 	},
 	{
 		"college_image": "https://i.ibb.co/ZfWV3SW/ronni-kurtz-e17b7-HW89vc-unsplash.jpg",
-		"college_name": "STU Academy",
+		"college_name": "Quantum Science Institute",
 		"college_rating": 4.6,
 		"admission_date": "2023-08-25",
-		"research_publications": 1300
+		"research_publications": 321,
+		"details": {
+			"events": "Science Fair, Research Symposium, Tech Talks",
+			"sports_facilities": "Physics lab, Chemistry lab, Biology lab"
+		}
 	}
 ]

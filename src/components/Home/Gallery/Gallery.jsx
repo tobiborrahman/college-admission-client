@@ -6,7 +6,7 @@ const Gallery = () => {
 			<h1 className="text-8xl font-bold text-center mb-14">Gallery</h1>
 			<div className="flex gap-3 mx-[62px]">
 				<img
-					className="w-[370px]"
+					className="w-[370px] bg-red-600 backdrop-brightness-25"
 					src="https://i.ibb.co/syLNQjH/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg"
 					alt=""
 				/>

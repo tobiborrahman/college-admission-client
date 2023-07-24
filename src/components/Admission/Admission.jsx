@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import SingleAdmission from './SingleAdmission';
 
 const Admission = () => {
-    return (
-        <div>
-            <h2>This is Admission</h2>
-        </div>
-    );
+	const [admitCollege, setAdmitCollege] = useState([]);
+
+	useEffect(() => {
+		fetch('http://localhost:5000/admittedColleges')
+			.then((res) => res.json())
+			.then((data) => {
+				setAdmitCollege(data);
+			});
+	}, []);
+    
+	return (
+		<div className="grid grid-cols-1 md:grid-cols-4 gap-3 py-20">
+			{admitCollege.map((college) => (
+				<SingleAdmission
+					key={college._id}
+					college={college}
+				></SingleAdmission>
+			))}
+		</div>
+	);
 };
 
 export default Admission;

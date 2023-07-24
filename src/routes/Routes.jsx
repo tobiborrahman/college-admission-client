@@ -8,6 +8,7 @@ import CardDetails from '../components/CardDetails/CardDetails';
 import Login from '../shared/pages/Login/Login';
 import Register from '../shared/pages/Register/Register';
 import CollegeDetails from '../components/Colleges/CollegeDetails';
+import AdmissionDetails from '../components/Admission/AdmissionDetails';
 
 const router = createBrowserRouter([
 	{
@@ -45,6 +46,16 @@ const router = createBrowserRouter([
 			{
 				path: '/colleges/:id',
 				element: <CollegeDetails></CollegeDetails>,
+				loader: ({ params }) =>
+					fetch(`http://localhost:5000/colleges/${params.id}`),
+			},
+			{
+				path: '/admittedColleges/:id',
+				element: <AdmissionDetails></AdmissionDetails>,
+				loader: ({ params }) =>
+					fetch(
+						`http://localhost:5000/admittedColleges/${params.id}`
+					),
 			},
 		],
 	},
